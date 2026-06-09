@@ -3,11 +3,21 @@ main: XYZUI\Main
 version: 1.0.0
 api: 5.0.0
 
+depend:
+  - FormAPI
+
 commands:
   xyz:
     description: Open XYZ UI
-    usage: /xyz
+    usage: "/xyz"
+    permission: xyzui.command
 
   coords:
     description: Open XYZ UI
-    usage: /coords
+    usage: "/coords"
+    permission: xyzui.command
+
+permissions:
+  xyzui.command:
+    description: Allows use of XYZUI commands
+    default: true
