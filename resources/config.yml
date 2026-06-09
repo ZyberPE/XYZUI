@@ -1,0 +1,10 @@
+update-interval: 20
+
+coords-format: "&aX: &f{x}\n&aY: &f{y}\n&aZ: &f{z}"
+
+messages:
+  enabled: "&aCoordinates enabled."
+  disabled: "&cCoordinates disabled."
+  cancelled: "&eAction cancelled."
+  title: "&l&aXYZ UI"
+  content: "&fWould you like to enable coordinate display?"
