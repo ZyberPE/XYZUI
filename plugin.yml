@@ -1,0 +1,13 @@
+name: XYZUI
+main: XYZUI\Main
+version: 1.0.0
+api: 5.0.0
+
+commands:
+  xyz:
+    description: Open XYZ UI
+    usage: /xyz
+
+  coords:
+    description: Open XYZ UI
+    usage: /coords
